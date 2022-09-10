@@ -4,6 +4,8 @@
 
 ng generate service app.service 
 
+ng generate component orders
+
 
 # Clean cache with worker
   - Background async: retries them using sync from the service worker.

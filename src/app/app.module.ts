@@ -8,11 +8,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppService } from './app.service';
 import { AppSplashScreenComponent } from './app.splash-screen';
+import { OrdersComponent } from './orders/orders.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppSplashScreenComponent,
+    OrdersComponent,
   ],
   imports: [
     BrowserModule,
